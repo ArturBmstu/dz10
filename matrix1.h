@@ -51,6 +51,7 @@ Matrix<T>::Matrix()
 	catch(exception &e) {
 		//PDEBUG(1, "exept. %s", e.what());
 		cout << e.what() << endl;
+		throw;
 	}		
 }
 
